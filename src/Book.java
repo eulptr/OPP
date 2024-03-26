@@ -26,16 +26,18 @@ public class Book {
 
     public Book(){
 
-    }
+    } //tuscias konstruktorius
+
     public Book(String title, int pages, int releaseYear) {
         this.title = title;
         this.pages = pages;
         this.releaseYear = releaseYear;
-    }
-    @Override
+    } //pilnas konstruktorius
+
+   /* @Override
     public String toString() {
         return this.title + " " +
                 this.pages + " " +
-                this.releaseYear +
-    }
+                this.releaseYear ;
+    }*/
 }
